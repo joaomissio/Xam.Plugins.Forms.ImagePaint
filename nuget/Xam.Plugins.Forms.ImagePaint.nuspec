@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xam.Plugins.Forms.ImagePaint</id>
+    <version>1.0.0</version>
+    <title>Image Painting Control Plugin for Xamarin.Forms</title>
+    <authors>João Missio</authors>
+    <owners>João Missio</owners>
+    <projectUrl>https://github.com/joaomissio/Xam.Plugins.Forms.ImagePaint</projectUrl>
+    <licenseUrl>https://github.com/joaomissio/Xam.Plugins.Forms.ImagePaint/blob/master/LICENSE</licenseUrl>
+	<iconUrl>https://raw.githubusercontent.com/joaomissio/Xam.Plugins.Forms.ImagePaint/master/demo/ScreenShots/icon.jpg?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple custom control for painting images in Xamarin Forms.</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>paint, image, xamarin, forms, android, ios, .net standard</tags>
+    <dependencies>
+	  <group targetFramework="netstandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="Xamarin.Forms" version="2.5.1.444934"/>
+      </group>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Forms" version="2.5.1.444934" />
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+        <dependency id="Xamarin.Forms" version="2.5.1.444934" />
+      </group>
+      
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Cross-platform reference assemblies -->
+    <file src="Xam.Plugins.Forms.ImagePaint\bin\Release\netstandard1.0\Xam.Plugins.Forms.ImagePaint.Abstractions.*" target="lib\netstandard1.0" />
+    
+    <!-- iOS reference assemblies -->
+	<file src="Xam.Plugins.Forms.ImagePaint.iOS\bin\Release\Xam.Plugins.Forms.ImagePaint.iOS.*" target="lib\Xamarin.iOS10" />
+	<file src="Xam.Plugins.Forms.ImagePaint\bin\Release\netstandard1.0\Xam.Plugins.Forms.ImagePaint.Abstractions.*" target="lib\Xamarin.iOS10" />
+    <!-- Android reference assemblies -->
+	<file src="Xam.Plugins.Forms.ImagePaint.Android\bin\Release\Xam.Plugins.Forms.ImagePaint.Android.*" target="lib\MonoAndroid10" />
+	<file src="Xam.Plugins.Forms.ImagePaint\bin\Release\netstandard1.0\Xam.Plugins.Forms.ImagePaint.Abstractions.*" target="lib\MonoAndroid10" />
+  </files>
+</package>

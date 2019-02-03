@@ -22,7 +22,7 @@
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup>
-    <IntermediateOutputPath>C:\DEV\Xam.Plugins.Forms.ImagePaint\src</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\DEV\GITHUB\Xam.Plugins.Forms.ImagePaint\src</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
