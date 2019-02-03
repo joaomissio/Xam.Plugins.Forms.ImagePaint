@@ -341,3 +341,5 @@ ASALocalRun/
 healthchecksdb
 /demo/Demo.XFImagePaint/MonoAndroid81/**
 /src/MonoAndroid81/**
+/demo/MonoAndroid81/**
+/demo/Demo/MonoAndroid81/**
