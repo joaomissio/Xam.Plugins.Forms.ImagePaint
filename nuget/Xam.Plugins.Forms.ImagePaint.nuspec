@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Xam.Plugins.Forms.ImagePaint</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Image Painting Control Plugin for Xamarin.Forms</title>
     <authors>João Missio</authors>
     <owners>João Missio</owners>
