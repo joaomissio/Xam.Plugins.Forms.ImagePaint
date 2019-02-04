@@ -3,13 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xf="clr-namespace:Xam.Plugins.Forms.ImagePaint;assembly=Xam.Plugins.Forms.ImagePaint.Abstractions"
              xmlns:local="clr-namespace:Demo"
+             x:Name="Page"
              x:Class="Demo.MainPage">
 
     <StackLayout>
-        <xf:ImagePaint ImageColor="Red" Source="icon.png" />
-        <xf:ImagePaint ImageColor="Blue" Source="icon.png" />
-        <xf:ImagePaint ImageColor="Green" Source="icon.png" />
-        <xf:ImagePaint ImageColor="Orange" Source="icon.png" />
+        <xf:ImagePaint ImageColor="Red" Source="icon.png" Command="{Binding ImgCommand}"/>
+        <xf:ImagePaint ImageColor="Blue" Source="icon.png" Command="{Binding ImgCommand}"/>
+        <xf:ImagePaint ImageColor="Green" Source="icon.png" Command="{Binding ImgCommand}"/>
+        <xf:ImagePaint ImageColor="Orange" Source="icon.png" Command="{Binding ImgCommand}"/>
+        
+        
+        
     </StackLayout>
 
 </ContentPage>

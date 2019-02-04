@@ -8,7 +8,7 @@ The `ImagePaint` control supports native renderer implementations for the follow
 
 ## Screenshot Demo
 <p align="center">
-<img src="https://github.com/joaomissio/XFImagePaint/blob/master/demo/ScreenShots/control_android.png" alt="Android Screenshot" width="270" height="480">
+<img src="https://github.com/joaomissio/Xam.Plugins.Forms.ImagePaint/blob/master/demo/ScreenShots/control_android.png" alt="Android Screenshot" width="270" height="480">
 </p>
 
 

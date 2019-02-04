@@ -12,6 +12,8 @@ namespace Demo
         public MainPage()
         {
             InitializeComponent();
+
+            Page.BindingContext = new MainPageViewModel();
         }
     }
 }
