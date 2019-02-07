@@ -37,7 +37,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DocumentationFile>bin\Release\Plugin.XFImagePaint.iOS.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Xam.Plugins.Forms.ImagePaint.iOS.xml</DocumentationFile>
   </PropertyGroup>
   
   <PropertyGroup>
